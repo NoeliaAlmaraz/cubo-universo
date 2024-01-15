@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts - fira sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- link para los iconos -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- link para bs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- link para css -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- titulo de mi página -->
+  <title>Cubo Universo</title>
+</head>
+
+<body>
+  <div class=" container-fluid bg-black ">
+
+    <!-- HEADER -->
+
+    <header class=" row  ">
+      <nav class="navbar navbar-expand-lg align-items-start">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="w-75" src="../assets/logoletrasblancas.png" alt="Cubo Universo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class='bx bx-menu text-white'></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link color--text" href="../index.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color--text" href="./cubos.html">Cubos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color--text" href="./tutoriales.html">Tutoriales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color--text" href="./puzzles.html">Puzzles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color--text" href="./contacto.html">Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    </header>
+
+
+    <div class="row mb-3 justify-content-center">
+      <span class=" col-8 h1mp border-bottom border-white border-5 mb-4"><h1 class="h1mp mb-4">! Veamos los tipos de <strong>Cubos de rubik</strong> ¡</h1></span>
+    </div>
+
+
+
+    <!--MAIN-->
+
+
+    <main class="row mb-5">
+
+      <section class="  col  mb-3 ">
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-evenly">
+
+            <article class="col-lg-3 card card-section bg-black">
+              <img src="../assets/cubos-de-rubik-3x3.jpg" class="rounded " alt="Cubicos">
+              <div class="card-body text-white text-center d-grid align-content-around">
+                <h5 class="card-title color-naranja">Cubicos</h5>
+                <p class="card-text">Los cubos de Rubik cúbicos, como el clásico 3x3x3, son rompecabezas
+                  tridimensionales con caras de igual longitud.</p>
+                <a href="#cubicos" class="btn btn-color">¡Ver más!</a>
+              </div>
+            </article>
+
+            <article class=" col-lg-3 card card-section bg-black">
+              <img src="../assets/cuboides-3x4x5.jpg" class="rounded " alt="Cuboides">
+              <div class="card-body text-white text-center d-grid align-content-around">
+                <h5 class="card-title color-naranja">Cuboides</h5>
+                <p class="card-text">
+                  Estos rompecabezas son parte de la familia de cubos de Rubik, pero presentan un conjunto único de
+                  desafíos debido a su estructura asimétrica.
+                </p>
+                <a href="#cuboides" class="btn btn-color">¡Ver más!</a>
+              </div>
+            </article>
+
+            <article class="col-lg-3 card card-section bg-black">
+              <img src="../assets/pyraminx.jpg" class="rounded " alt="Minx">
+              <div class="card-body text-white text-center d-grid align-content-around">
+                <h5 class="card-title color-naranja">Minx</h5>
+                <p class="card-text">
+                  Los cubos de Rubik de la categoría "minx" engloban una variedad de rompecabezas poliédricos más
+                  complejos con formas irregulares por ello, se requieren estrategias únicas para resolverlos.</p>
+                <a href="#minx" class="btn btn-color">¡Ver más!</a>
+              </div>
+            </article>
+
+            <article class="col-lg-3 card card-section bg-black">
+              <img src="../assets/otros-puzzles.jpg" class="rounded " alt="cubo de rubik">
+              <div class="card-body text-white text-center d-grid align-content-around">
+                <h5 class="card-title color-naranja">Otros</h5>
+                <p class="card-text">Existen otros muchos tipos de Cubos de Rubik dependiendo de los giros y sus
+                  particulares formas no cúbicas o modificaciones.</p>
+                <a href="#otroscubos" class="btn btn-color">¡Ver más!</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+
+    <!--SECTION-->
+
+
+
+    <section class="row flex-column mt-5 mb-5">
+
+        <!-- carrusel -->
+
+
+      <article class="col-xl-5 mx-auto card bg-black align-items-center mb-5" id="cubicos">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../assets/2x2-3x3.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../assets/cubos-de-rubik-8x8.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/shengshou-15x15.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body text-center text-white">
+          <h3 class="color-naranja">Cubicos</h3>
+          <p class="card-text ">La categoría de "cubos cúbicos" de los cubos de Rubik se refiere a los modelos de cubos
+            con capas de igual tamaño en todos los lados, creando una estructura cúbica clásica. Los cubos cúbicos más
+            conocidos son el "Rubik's Cube" estándar, también conocido como el cubo 3x3x3, que es el modelo icónico y el
+            más común.
+
+            Estos cubos cúbicos presentan un desafío de resolución centrado en la reorganización de los colores en cada
+            cara del cubo para que todas coincidan. La mecánica de giro de las capas sigue un patrón estándar, y la
+            solución implica la aplicación de algoritmos específicos para realizar movimientos precisos.
+          </p>
+        </div>
+      </article>
+
+
+      <!-- carrusel -->
+
+
+      <article class="col-xl-5 mx-auto card bg-black align-items-center mb-5" id="cuboides">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../assets/2x3x4-mf8.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../assets/witeden-super-3x3x6-ii.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/cuboide-7x7x3.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body text-center text-white">
+          <h3 class="color-naranja">Cuboides</h3>
+          <p class="card-text ">La categoría de "cubos cuboides" dentro de los cubos de Rubik engloba una variedad fascinante de puzzles tridimensionales que se apartan de la forma cúbica convencional. A diferencia de los cubos estándar, los cuboides presentan capas de tamaños desiguales en al menos una dimensión, lo que resulta en formas rectangulares o prismáticas.
+
+            Estos cubos ofrecen nuevos desafíos y estrategias de resolución, ya que la forma asimétrica añade complejidad al proceso de alinear y hacer coincidir los colores en cada cara. Entre los cuboides más populares se encuentran el 2x2x4, 3x3x2, y otros modelos que varían en términos de dimensiones y dificultad.
+            
+            La categoría de cubos cuboides ha ganado popularidad entre los entusiastas de los rompecabezas tridimensionales debido a su naturaleza única y a la amplia gama de variaciones disponibles. Estos puzzles ofrecen una experiencia de resolución única, desafiante y creativa para aquellos que buscan explorar más allá de los límites del cubo estándar de Rubik.
+          </p>
+        </div>
+      </article>
+
+
+      <!-- carrusel -->
+
+
+      <article class="col-xl-5 mx-auto card bg-black align-items-center mb-5" id="minx">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../assets/qiyi-qiming-pyraminx-s2.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../assets/yuxin-master-kilominx.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/petaminx-mf8.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body text-center text-white">
+          <h3 class="color-naranja">Minx</h3>
+          <p class="card-text ">La categoría de "cubos Minx" dentro de los cubos de Rubik incluye una emocionante familia de puzzles que se caracterizan por sus formas estrelladas y complejas. Estos cubos, inspirados en la forma de dodecaedros y otros poliedros, presentan cortes y giros únicos que generan una variedad de caras y capas más allá de la estructura cúbica convencional.
+
+            Los cubos Minx más conocidos incluyen el Pyraminx, el Megaminx y el Kilominx, cada uno con su propia complejidad y número de caras. El Pyraminx, por ejemplo, tiene una forma piramidal con tres capas, mientras que el Megaminx es un dodecaedro con doce caras de colores.
+            
+            Estos cubos ofrecen desafíos únicos a los entusiastas del cubo de Rubik, ya que la forma y disposición de las caras añaden una capa adicional de estrategia y resolución. La categoría de cubos Minx ha ganado popularidad por su diseño innovador y la oportunidad que brinda a los aficionados de explorar nuevas formas de pensar y resolver rompecabezas tridimensionales.
+          </p>
+        </div>
+      </article>
+
+
+      <!-- carrusel -->
+
+
+      <article class="col-xl-5 mx-auto card bg-black align-items-center mb-5" id="otroscubos">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../assets/gan-skewb-m-enhanced-uv-coated.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../assets/calvins-square-2.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/lanlan-curvy-mosaic.jpg" class="d-block w-auto rounded" alt="Cubo de rubik">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body text-center text-white">
+          <h3 class="color-naranja">Otros</h3>
+          <p class="card-text ">La categoría de "otros" engloba la inmensa cantidad de moificaciones de cubos según su giro, su demormidad y las inmunerables formas de resolverlos como los cubos square, curvy o skewb.
+          </p>
+        </div>
+      </article>
+
+
+
+
+    </section>
+
+
+      <!-- FOOTER -->
+
+
+    <footer class="row  bg-color align-items-center ">
+
+        <p class="col-7 col-md-3 d-flex align-items-center justify-content-center ">Noelia Almaraz Castellano</p>
+        <div class="col-7 col-md-3 d-flex align-items-center justify-content-center ">
+            <img class="w-75" src="../assets/logoletrasblancas.png" alt="Cubo Universo">
+        </div>
+        <a class="col-7 col-md-3 d-flex align-items-center justify-content-center " href="https://www.instagram.com/dev.na09/"><i class='bx bxl-instagram-alt'></i></a>
+
+    </footer>
+
+    
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

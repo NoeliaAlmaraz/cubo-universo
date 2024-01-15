@@ -1,0 +1,255 @@
+
+
+
+
+
+/*RESET - Establece reglas iniciales para todos los elementos*/
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /*
+    1 - Establece la fuente predeterminada para todos los elementos
+    2 - Elimina los márgenes predeterminados
+    3 - Elimina el relleno predeterminado
+    4 - Hace que el modelo de caja sea de tipo border-box para incluir 
+        el relleno y el borde en el ancho y alto
+    */
+}
+
+.backvideo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;/*cubre todo el contenedor sin deformar*/
+
+}
+
+
+
+
+/* 
+ *
+ *seccion - HEADER index
+ *
+ */
+
+
+
+.color--text{
+    color: #ffffff;
+}
+
+.color--text:hover {
+    color: #fe904d;
+    text-decoration: underline;
+}
+
+
+.h1mp{
+    position: relative;
+    color: #ffffff;
+    text-align: center; 
+}
+
+strong{
+    color: #fe904d;
+}
+
+
+
+
+
+
+
+/* 
+ *
+ *seccion - HISTORIA index
+ *
+ */
+
+
+
+
+ .historia{
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    line-height: 1.5;
+    gap: 50px 0;
+}
+
+.historia-img img {
+   
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.mainpagehistoria--div {
+    padding: 0 150px 0 150px;
+}
+
+.title {
+    font-size: 2em;
+    color: #fe701a;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: #fe701a;
+    text-align: center;
+}
+
+.mainpagestrong {
+    color: #fe701a;
+}
+
+
+
+.h2paginas {
+    color: #fe701a;
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+
+
+.articlepaginas {
+    border: 2px solid #fe701a;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 15px;
+    max-width: 100%;
+
+}
+
+
+.articlepaginas a {
+    text-decoration: none;
+    color: #fe701a;
+    font-size: 1.5em;
+    
+}
+
+.articlepaginas:active {
+    border: 2px solid #000000;
+    background-color: #fe701a;
+    color: #000000  
+}
+
+.paginasmp {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.img-paginas {
+    width: 193px;
+    height: 193px;
+}
+
+.card-body > a {
+    text-decoration: underline;
+    color: #fe701a;
+}
+
+
+@media (min-width: 1000px) {
+
+    .mpaside {
+        max-width: 80%;
+    }
+
+    .div-mpaside{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+footer{
+    background-color: #fe701a;
+    gap: 5px;
+    padding-top: 5px;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+footer p{
+    background-color: #000000;
+    color: #fe701a;
+    border-radius: 10px;
+    
+}
+
+
+footer img{
+    width: 100px;
+    height: auto;
+    background-color: #000000;
+    color: #fe701a;
+    border-radius: 10px;
+    position: relative;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+a i.bxl-instagram-alt {
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.card-section {
+    max-width: 18rem;
+}
+
+.btn-color {
+    color: #000000;
+}
+
+
+.color-naranja {
+    color: #fe701a;
+}
+
+.color-naranja:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.border-custom{
+    border-bottom: 5px solid #fe701a;
+}
+
+.bg-custom {
+    background-color: #fe701a;
+}
